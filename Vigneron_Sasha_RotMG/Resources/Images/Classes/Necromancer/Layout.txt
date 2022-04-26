@@ -1,0 +1,2 @@
+Row: Index (1-2)
+Column: Direction we see (1: front 2: Side_L 3: Side_R 4: back)

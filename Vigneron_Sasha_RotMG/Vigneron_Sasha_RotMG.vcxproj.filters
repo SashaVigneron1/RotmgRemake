@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="0_Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="1_Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="1_Game Files\A_Character Classes">
+      <UniqueIdentifier>{893a1a90-8751-4ac7-a054-a8834f696a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Files\B_Objects">
+      <UniqueIdentifier>{dba3a938-16fc-4faa-a353-65a80f81c076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Files\C_Other">
+      <UniqueIdentifier>{bd8b1ef1-bc3f-48ef-93d9-c414e27bfefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Files\D_MapGeneration">
+      <UniqueIdentifier>{35a4d883-e6bf-48e7-893c-e5bf773b010f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Files\E_Enemies">
+      <UniqueIdentifier>{6d5b4a2a-b802-499a-b2cd-26ea15daabc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Files\F_Inventory">
+      <UniqueIdentifier>{2018d807-3b0e-4235-acad-fe5c0edc968c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>0_Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>1_Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>1_Game Files\C_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>1_Game Files\B_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Necromancer.cpp">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ninja.cpp">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>1_Game Files\C_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseGenerator.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Biome.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleManager.cpp">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>1_Game Files\C_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBag.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Special.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAssets.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBagManager.cpp">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Medusa.cpp">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>0_Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>1_Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>1_Game Files\C_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>1_Game Files\B_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Necromancer.h">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ninja.h">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>1_Game Files\C_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseGenerator.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Biome.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleManager.h">
+      <Filter>1_Game Files\D_MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>1_Game Files\C_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBag.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Special.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAssets.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBagManager.h">
+      <Filter>1_Game Files\F_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>1_Game Files\A_Character Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Medusa.h">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>1_Game Files\E_Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
