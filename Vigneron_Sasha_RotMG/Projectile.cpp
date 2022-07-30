@@ -28,11 +28,11 @@ Projectile::~Projectile()
 void Projectile::Update(float elapsedSec)
 {
 	m_Position += m_Velocity * elapsedSec;
-	float distance{ sqrtf((m_Position.x - m_StartPosition.x)
+	float sqrDistance{ (m_Position.x - m_StartPosition.x)
 					* (m_Position.x - m_StartPosition.x)
 					+ (m_Position.y - m_StartPosition.y)
-					* (m_Position.y - m_StartPosition.y)) };
-	if (distance >= m_Range) 
+					* (m_Position.y - m_StartPosition.y) };
+	if (sqrDistance >= m_Range * m_Range) 
 	{
 		m_pProjectileManager->RemoveProjectile(this);
 	}

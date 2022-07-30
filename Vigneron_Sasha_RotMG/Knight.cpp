@@ -38,9 +38,9 @@ Knight::~Knight()
 void Knight::PerformSpecialAttack(const Point2f& mousePos)
 {
 	//Create a bunch of projectiles in circle
-	float distance{ sqrtf((mousePos.x - m_Position.x) * (mousePos.x - m_Position.x)
-					+ (mousePos.y - m_Position.y) * (mousePos.y - m_Position.y)) };
-	if (distance <= m_Range)
+	float sqrDistance{ (mousePos.x - m_Position.x) * (mousePos.x - m_Position.x)
+					+ (mousePos.y - m_Position.y) * (mousePos.y - m_Position.y) };
+	if (sqrDistance <= m_Range * m_Range)
 	{
 		if (m_AccCooldownTime >= m_CooldownTime && m_Mana >= m_ManaNeeded)
 		{
